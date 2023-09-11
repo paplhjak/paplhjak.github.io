@@ -1,9 +1,9 @@
 ---
-title: "Bachelor Thesis"
+title: "Bachelor Thesis: Convolutional Neural Networks with Local Context Masks"
 collection: publications
 permalink: /publication/2020-bachelor-thesis
 excerpt: ''
-date: 2009-10-01
+date: 2020-01-07
 venue: 
 paperurl: 'http://hdl.handle.net/10467/89987'
 citation: '.'

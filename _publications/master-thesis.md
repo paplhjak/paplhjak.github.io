@@ -3,7 +3,7 @@ title: "Master Thesis: Detection of Microscopic Fungi and Yeast in Clinical Samp
 collection: publications
 permalink: /publication/2022-master-thesis
 excerpt: ''
-date: 2009-10-01
+date: 2022-01-07
 paperurl: 'http://hdl.handle.net/10467/100872'
 citation: 'Paplhám, J.; Franc, V. and Lžičařová, D. (2023). Detection of Microscopic Fungi and Yeast in Clinical Samples Using Fluorescence Microscopy and Deep Learning. In Proceedings of the 18th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications (VISIGRAPP 2023) - Volume 4: VISAPP; ISBN 978-989-758-634-7; ISSN 2184-4321, SciTePress, pages 777-784. DOI: 10.5220/0011616100003417'
 ---
