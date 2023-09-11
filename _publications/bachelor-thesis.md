@@ -4,9 +4,9 @@ collection: publications
 permalink: /publication/2020-bachelor-thesis
 excerpt: ''
 date: 2009-10-01
-venue: 'Journal 1'
+venue: 
 paperurl: 'http://hdl.handle.net/10467/89987'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+citation: '.'
 ---
 
 This work proposes, implements and evaluates modified convolution operation within CNNs which explicitly considers additional context when processing data. This is done through a mechanism where local context corresponds to a local real-valued convolution mask which assigns higher weights to contextually close data and lower weights to contextually distant data.
@@ -14,8 +14,13 @@ This work proposes, implements and evaluates modified convolution operation with
 [Download paper here](https://dspace.cvut.cz/bitstream/handle/10467/89987/F3-BP-2020-Paplham-Jakub-Paplham_BThesis_final_reduced_size.pdf?sequence=-1&isAllowed=y)
 
 
-Recommended citation: 
+BibTeX: 
 {% include codeheader.html %}
 ```
-Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+@inproceedings{Paplhm2020ConvolutionalNN,
+  title={Convolutional Neural Networks with Local Context Masks},
+  author={Jakub Paplh{\'a}m},
+  year={2020},
+  url={https://api.semanticscholar.org/CorpusID:221709465}
+}
 ```
