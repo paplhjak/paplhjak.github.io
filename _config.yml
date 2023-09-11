@@ -83,7 +83,7 @@ author:
   name             : "Jakub Paplhám"
   avatar           : "profile.png"
   bio              : "PhD student at CTU in Prague"
-  location         : "Building G, Room 105, Karlovo namesti 13, 12135 Praha 2, Czech Republic"
+  location         : "Charles Square, Room G105"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -184,9 +184,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-#  talks:
-#    output: true
-#    permalink: /:collection/:path/
 
 
 # Defaults
