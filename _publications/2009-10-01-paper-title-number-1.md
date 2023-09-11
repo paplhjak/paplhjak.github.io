@@ -14,7 +14,8 @@ This work proposes, implements and evaluates modified convolution operation with
 [Download paper here](https://dspace.cvut.cz/bitstream/handle/10467/89987/F3-BP-2020-Paplham-Jakub-Paplham_BThesis_final_reduced_size.pdf?sequence=-1&isAllowed=y)
 
 
+Recommended citation: 
 {% include codeheader.html %}
-```someLanguage
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+```
+Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
 ```
