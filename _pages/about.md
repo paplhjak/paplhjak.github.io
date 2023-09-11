@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Jakub is a Ph.D. student at the Center for Machine Perception. His research interests are semi-supervised learning, reject-option classification and prediction under distribution shift.
+Jakub is a Ph.D. student at the Center for Machine Perception. His research interests include semi-supervised learning, reject-option classification and prediction under distribution shift.
