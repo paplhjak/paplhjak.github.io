@@ -9,3 +9,9 @@ redirect_from:
 ---
 
 Jakub is a Ph.D. student at the Center for Machine Perception. His research interests include semi-supervised learning, reject-option classification and prediction under distribution shift.
+
+## Contact
+**Address**: Karlovo náměstí 13, 12135 Praha 2, Czech Republic
+**Office**: Building G, Room 105
+**Phone**: +420-22435-5729
+**E-mail**: jakub.paplham@fel.cvut.cz
