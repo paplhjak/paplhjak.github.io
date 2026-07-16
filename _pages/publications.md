@@ -3,26 +3,24 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: false
-excerpt: "Peer-reviewed papers, public preprints, and theses by Jakub Paplhám."
+excerpt: "Publications by Jakub Paplhám."
 ---
-
-<p class="page-intro">My research covers reliable machine learning, uncertainty, prediction under distribution shift, and computer vision. Published work is linked to the official proceedings whenever available.</p>
 
 {% assign peer_reviewed = site.publications | where: "kind", "peer-reviewed" | sort: "date" | reverse %}
 {% assign preprints = site.publications | where: "kind", "preprint" | sort: "date" | reverse %}
 {% assign theses = site.publications | where: "kind", "thesis" | sort: "date" | reverse %}
 
-<p class="publication-list__year">Peer-reviewed</p>
-<div class="publication-list">
-{% for post in peer_reviewed %}{% include publication-card.html post=post %}{% endfor %}
-</div>
+<section class="publication-group" aria-labelledby="reviewed-heading">
+  <h2 id="reviewed-heading">Peer-reviewed</h2>
+  <div class="publication-list">{% for post in peer_reviewed %}{% include publication-card.html post=post %}{% endfor %}</div>
+</section>
 
-<p class="publication-list__year">Public preprints</p>
-<div class="publication-list">
-{% for post in preprints %}{% include publication-card.html post=post %}{% endfor %}
-</div>
+<section class="publication-group" aria-labelledby="preprints-heading">
+  <h2 id="preprints-heading">Preprints</h2>
+  <div class="publication-list">{% for post in preprints %}{% include publication-card.html post=post %}{% endfor %}</div>
+</section>
 
-<p class="publication-list__year">Theses</p>
-<div class="publication-list">
-{% for post in theses %}{% include publication-card.html post=post %}{% endfor %}
-</div>
+<section class="publication-group" aria-labelledby="theses-heading">
+  <h2 id="theses-heading">Theses</h2>
+  <div class="publication-list">{% for post in theses %}{% include publication-card.html post=post %}{% endfor %}</div>
+</section>
