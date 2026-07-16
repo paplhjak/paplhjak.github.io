@@ -1,5 +1,5 @@
 ---
-title: "A Call to Reflect on Evaluation Practices for Age Estimation"
+title: "A Call to Reflect on Evaluation Practices for Age Estimation: Comparative Analysis of the State-of-the-Art and a Unified Benchmark"
 collection: publications
 permalink: /publication/2023-12-09-age-estimation
 excerpt: 'Comparing different age estimation methods poses a challenge due to the unreliability of published results. Previous studies have reported continuous performance improvements using specialized methods; however, our findings challenge these claims.'
