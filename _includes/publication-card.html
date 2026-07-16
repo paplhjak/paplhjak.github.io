@@ -1,0 +1,15 @@
+{% assign publication = include.post %}
+<article class="publication-card">
+  <div class="publication-card__meta">
+    <span class="venue-badge">{{ publication.venue_short | default: publication.venue }}</span>
+    <span>{{ publication.date | date: "%Y" }}</span>
+  </div>
+  <h3><a href="{{ base_path }}{{ publication.url }}">{{ publication.title }}</a></h3>
+  {% if publication.authors %}<div class="publication-card__authors">{{ publication.authors }}</div>{% endif %}
+  {% if publication.excerpt %}<p class="publication-card__excerpt">{{ publication.excerpt | strip_html }}</p>{% endif %}
+  <div class="publication-links">
+    <a class="jp-button jp-button--small" href="{{ base_path }}{{ publication.url }}">Details</a>
+    {% if publication.paperurl %}<a class="jp-button jp-button--small jp-button--ghost" href="{{ publication.paperurl }}">Paper</a>{% endif %}
+    {% if publication.codeurl %}<a class="jp-button jp-button--small jp-button--ghost" href="{{ publication.codeurl }}">Code</a>{% endif %}
+  </div>
+</article>
