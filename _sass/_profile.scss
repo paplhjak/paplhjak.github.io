@@ -11,6 +11,11 @@
 
 html { scroll-behavior: smooth; }
 
+::selection {
+  color: var(--profile-paper);
+  background: var(--profile-accent);
+}
+
 body {
   color: var(--profile-ink);
   background: var(--profile-cream);
@@ -51,11 +56,24 @@ a {
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: -0.01em;
+  transition: color 160ms ease, opacity 160ms ease;
 }
 
 .greedy-nav .visible-links a:before {
   height: 2px;
   background: var(--profile-accent);
+  transform-origin: left center;
+  transition: transform 190ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.greedy-nav .visible-links .is-active a:before { transform: scaleX(1); }
+.greedy-nav .visible-links .is-active a { color: var(--profile-accent); }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--profile-accent);
+  outline-offset: 5px;
+  border-radius: 1px;
 }
 
 .masthead__menu-item--lg a {
@@ -151,7 +169,10 @@ a {
   font-weight: 700;
 }
 
-.profile-intro__links a { color: var(--profile-paper); }
+.profile-intro__links a {
+  color: var(--profile-paper);
+  transition: color 160ms ease, transform 160ms ease;
+}
 
 .profile-photo {
   display: block;
@@ -166,6 +187,7 @@ a {
   border: 5px solid var(--profile-paper);
   border-radius: 1px;
   object-fit: cover;
+  transition: transform 240ms cubic-bezier(0.22, 1, 0.36, 1), border-color 200ms ease;
 }
 
 .profile-photo figcaption {
@@ -210,6 +232,7 @@ a {
   color: var(--profile-muted);
   font-size: 0.68rem;
   font-weight: 700;
+  transition: color 160ms ease, transform 160ms ease;
 }
 
 .plain-list {
@@ -242,6 +265,7 @@ a {
 .publication-item {
   position: relative;
   padding: 0 0 1.7rem 1.15rem;
+  transition: padding-left 200ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .publication-item:before {
@@ -252,6 +276,7 @@ a {
   height: 5px;
   background: var(--profile-accent);
   content: "";
+  transition: width 200ms cubic-bezier(0.22, 1, 0.36, 1), background 160ms ease;
 }
 
 .publication-item:last-child { padding-bottom: 0; }
@@ -263,6 +288,7 @@ a {
   font-weight: 750;
   letter-spacing: -0.02em;
   line-height: 1.45;
+  transition: color 160ms ease;
 }
 
 .publication-item__authors,
@@ -299,6 +325,22 @@ a {
 .compact-entry > span { color: var(--profile-muted); font-size: 0.7rem; font-weight: 700; }
 .compact-entry p { margin: 0; font-size: 0.84rem; line-height: 1.55; }
 .compact-entry strong { font-weight: 750; }
+
+@media (hover: hover) {
+  .greedy-nav a:hover { color: var(--profile-accent); }
+
+  .profile-intro__links a:hover,
+  .section-title-row > a:hover { transform: translateY(-2px); }
+
+  .profile-photo:hover img {
+    border-color: #fff;
+    transform: translateY(-3px);
+  }
+
+  .publication-item:hover { padding-left: 1.65rem; }
+  .publication-item:hover:before { width: 18px; }
+  .publication-item:hover .publication-item__title { color: var(--profile-accent); }
+}
 
 /* CV and teaching */
 .archive, .page { padding-top: 4.5rem; }
@@ -440,4 +482,5 @@ a {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  *, *:before, *:after { transition-duration: 0.01ms !important; }
 }
