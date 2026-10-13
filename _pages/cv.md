@@ -71,6 +71,16 @@ redirect_from:
   </div>
 </section>
 
+<section class="resume-section" aria-labelledby="service-title">
+  <h2 id="service-title">Service</h2>
+  <div>
+    <article class="resume-entry">
+      <div class="resume-entry__top"><h3>Reviewer</h3><span class="resume-entry__date">2025–present</span></div>
+      <p>NeurIPS 2025–2026 · AAAI 2026–2027 · ECCV 2026 · WACV 2026–2027</p>
+    </article>
+  </div>
+</section>
+
 <section class="resume-section" aria-labelledby="contact-cv-title">
   <h2 id="contact-cv-title">Contact</h2>
   <div class="contact-lines">
