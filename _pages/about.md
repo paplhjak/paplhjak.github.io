@@ -59,6 +59,7 @@ redirect_from:
     <div class="compact-entries">
       <div class="compact-entry"><span>2026</span><p><strong>Dean's Award for Outstanding Teaching</strong><br>Teaching assistant category, FEE CTU, winter 2025/26</p></div>
       <div class="compact-entry"><span>2025</span><p><strong>Minister of the Interior Award</strong><br>FACIS project</p></div>
+      <div class="compact-entry"><span>2025</span><p><strong>Top Reviewer</strong><br>NeurIPS 2025</p></div>
       <div class="compact-entry"><span>2022</span><p><strong>Dean's Award</strong><br>Master's thesis</p></div>
     </div>
   </section>
