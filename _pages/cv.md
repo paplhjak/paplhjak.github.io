@@ -47,7 +47,7 @@ redirect_from:
     <article class="resume-entry">
       <h3>Thesis Supervision</h3>
       <p class="resume-entry__org">Czech Technical University in Prague</p>
-      <p>Bachelor's and Master's theses.</p>
+      <p>Master's theses: Radim Průdek, real-time visual localization for UAVs (2026); Vojtěch Vaněček, weakly supervised age estimation (2026). Bachelor's thesis: Jakub Adamec, automated recognition of trading cards (2026).</p>
     </article>
   </div>
 </section>
