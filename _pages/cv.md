@@ -35,9 +35,19 @@ redirect_from:
   <h2 id="teaching-title">Teaching</h2>
   <div>
     <article class="resume-entry">
-      <div class="resume-entry__top"><h3>Teaching Assistant, Statistical Machine Learning</h3><span class="resume-entry__date">2023–present</span></div>
+      <div class="resume-entry__top"><h3>Teaching Assistant, Machine Learning Fundamentals</h3><span class="resume-entry__date">2026–present</span></div>
       <p class="resume-entry__org">Czech Technical University in Prague</p>
-      <p>Graduate seminars and supervision of Bachelor's and Master's theses.</p>
+      <p>Leading the graduate seminars and running the homework assignments and Kaggle challenges.</p>
+    </article>
+    <article class="resume-entry">
+      <div class="resume-entry__top"><h3>Teaching Assistant, Statistical Machine Learning</h3><span class="resume-entry__date">2023–2025</span></div>
+      <p class="resume-entry__org">Czech Technical University in Prague</p>
+      <p>Leading the graduate seminars and running the homework assignments.</p>
+    </article>
+    <article class="resume-entry">
+      <h3>Thesis Supervision</h3>
+      <p class="resume-entry__org">Czech Technical University in Prague</p>
+      <p>Bachelor's and Master's theses.</p>
     </article>
   </div>
 </section>
@@ -54,8 +64,8 @@ redirect_from:
 <section class="resume-section" aria-labelledby="awards-title">
   <h2 id="awards-title">Awards</h2>
   <div>
+    <article class="resume-entry"><div class="resume-entry__top"><h3>Dean's Award for Outstanding Teaching, FEE CTU</h3><span class="resume-entry__date">2026</span></div><p>The only teaching assistant honoured across the faculty for the winter semester 2025/26, selected by a dean's commission primarily on the basis of student evaluations.</p></article>
     <article class="resume-entry"><div class="resume-entry__top"><h3>Minister of the Interior Award, FACIS project</h3><span class="resume-entry__date">2025</span></div></article>
-    <article class="resume-entry"><div class="resume-entry__top"><h3>CTU teaching recognition</h3><span class="resume-entry__date">2026</span></div></article>
     <article class="resume-entry"><div class="resume-entry__top"><h3>Dean's Award for Master's thesis</h3><span class="resume-entry__date">2022</span></div></article>
   </div>
 </section>
