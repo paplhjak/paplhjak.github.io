@@ -54,8 +54,8 @@ redirect_from:
 <section class="resume-section" aria-labelledby="awards-title">
   <h2 id="awards-title">Awards</h2>
   <div>
+    <article class="resume-entry"><div class="resume-entry__top"><h3>Dean's Award for Outstanding Teaching, FEE CTU</h3><span class="resume-entry__date">2026</span></div><p>The only teaching assistant honoured across the faculty for the winter semester 2025/26, selected by a dean's commission primarily on the basis of student evaluations.</p></article>
     <article class="resume-entry"><div class="resume-entry__top"><h3>Minister of the Interior Award, FACIS project</h3><span class="resume-entry__date">2025</span></div></article>
-    <article class="resume-entry"><div class="resume-entry__top"><h3>CTU teaching recognition</h3><span class="resume-entry__date">2026</span></div></article>
     <article class="resume-entry"><div class="resume-entry__top"><h3>Dean's Award for Master's thesis</h3><span class="resume-entry__date">2022</span></div></article>
   </div>
 </section>

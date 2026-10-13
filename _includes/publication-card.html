@@ -1,6 +1,8 @@
 {% assign publication = include.post %}
+{% assign venue = publication.venue_short | default: publication.venue %}
+{% assign year = publication.date | date: "%Y" %}
 <article class="publication-item">
   <p class="publication-item__title">{{ publication.title }}</p>
   {% if publication.authors %}<p class="publication-item__authors">{{ publication.authors }}</p>{% endif %}
-  <p class="publication-item__venue">{{ publication.venue_short | default: publication.venue }}, {{ publication.date | date: "%Y" }}</p>
+  <p class="publication-item__venue">{{ venue }}{% unless venue contains year %}, {{ year }}{% endunless %}{% if publication.note %} · {{ publication.note }}{% endif %}</p>
 </article>

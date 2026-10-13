@@ -57,8 +57,8 @@ redirect_from:
   <section class="profile-section" aria-labelledby="recognition-heading">
     <h2 id="recognition-heading">Recognition</h2>
     <div class="compact-entries">
+      <div class="compact-entry"><span>2026</span><p><strong>Dean's Award for Outstanding Teaching</strong><br>Only teaching assistant honoured at FEE CTU, winter 2025/26</p></div>
       <div class="compact-entry"><span>2025</span><p><strong>Minister of the Interior Award</strong><br>FACIS project</p></div>
-      <div class="compact-entry"><span>2026</span><p><strong>CTU teaching recognition</strong></p></div>
       <div class="compact-entry"><span>2022</span><p><strong>Dean's Award</strong><br>Master's thesis</p></div>
     </div>
   </section>
