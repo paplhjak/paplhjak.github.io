@@ -42,7 +42,7 @@ redirect_from:
     <article class="resume-entry">
       <div class="resume-entry__top"><h3>Teaching Assistant, Statistical Machine Learning</h3><span class="resume-entry__date">2023–2025</span></div>
       <p class="resume-entry__org">Czech Technical University in Prague</p>
-      <p>Graduate seminars.</p>
+      <p>Leading the graduate seminars and running the homework assignments.</p>
     </article>
     <article class="resume-entry">
       <h3>Thesis Supervision</h3>
