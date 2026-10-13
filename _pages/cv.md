@@ -35,9 +35,19 @@ redirect_from:
   <h2 id="teaching-title">Teaching</h2>
   <div>
     <article class="resume-entry">
-      <div class="resume-entry__top"><h3>Teaching Assistant, Statistical Machine Learning</h3><span class="resume-entry__date">2023–present</span></div>
+      <div class="resume-entry__top"><h3>Teaching Assistant, Machine Learning Fundamentals</h3><span class="resume-entry__date">2026–present</span></div>
       <p class="resume-entry__org">Czech Technical University in Prague</p>
-      <p>Graduate seminars and supervision of Bachelor's and Master's theses.</p>
+      <p>Leading the graduate seminars and running the homework assignments and Kaggle challenges.</p>
+    </article>
+    <article class="resume-entry">
+      <div class="resume-entry__top"><h3>Teaching Assistant, Statistical Machine Learning</h3><span class="resume-entry__date">2023–2025</span></div>
+      <p class="resume-entry__org">Czech Technical University in Prague</p>
+      <p>Graduate seminars.</p>
+    </article>
+    <article class="resume-entry">
+      <h3>Thesis Supervision</h3>
+      <p class="resume-entry__org">Czech Technical University in Prague</p>
+      <p>Bachelor's and Master's theses.</p>
     </article>
   </div>
 </section>
