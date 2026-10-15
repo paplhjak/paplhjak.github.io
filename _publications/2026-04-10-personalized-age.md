@@ -7,7 +7,7 @@ date: 2027-01-04
 venue: 'IEEE/CVF Winter Conference on Applications of Computer Vision'
 venue_short: 'WACV 2027'
 kind: 'peer-reviewed'
-featured: false
+featured: true
 authors: 'Jakub Paplhám · Vojtěch Franc · Artem Moroz'
 paperurl: 'https://arxiv.org/abs/2604.09125'
 citation: 'Jakub Paplhám, Vojtěch Franc, and Artem Moroz. Few-Shot Personalized Age Estimation. WACV, 2027.'
