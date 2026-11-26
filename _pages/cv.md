@@ -76,7 +76,7 @@ redirect_from:
   <div>
     <article class="resume-entry">
       <div class="resume-entry__top"><h3>Reviewer</h3><span class="resume-entry__date">2025–present</span></div>
-      <p>NeurIPS 2025–2026 · AAAI 2026–2027 · ECCV 2026 · WACV 2026–2027</p>
+      <p>NeurIPS 2025–2026 · ICML 2027 · AAAI 2026–2027 · ECCV 2026 · WACV 2026–2027</p>
     </article>
   </div>
 </section>
